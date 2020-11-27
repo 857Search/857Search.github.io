@@ -24,15 +24,13 @@
 <body>
 	<script type="text/javascript">
 
-		var url = window.location.href;
+				var url = window.location.href;
 
                 if (url.indexOf("https") or url.indexOf("file") < 0) {
 
                     url = url.replace("http:", "https:");
 
                     window.location.replace(url);
-					
-					window.location.reload()
 					
 					var con;
 					con=confirm("已为您跳转至https加密你的信息");
