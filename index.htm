@@ -31,10 +31,26 @@
                     url = url.replace("http:", "https:");
 
                     window.location.replace(url);
+					
+					window.location.reload()
+					
+					var con;
+					con=confirm("已为您跳转至https加密你的信息");
+					if(con==false)
+					{
+						url = url.replace("https:", "http:");
+
+                    	window.location.replace(url);
+						
+						window.location.reload();
+					}
+
 
                 }
+				else{}
 
 	</script>
+
 	<span> <img src="./857一下，你不知道_files/baidu.svg" width="30" height="30"> </span>
 	<span> <text> <font color="#3B85E3" size="+2"> 进入-简洁百度界面 Simple Baidu Start</font> </text> </span>
 	<span><a style="left: 42%; position: absolute; top: 40%;text-decoration: none; a:link {color: red}; a:visited {color: red}; a:hover {color: #00F0D5}; a:active {color: red}; vertical-align: middle; text-align: center; background-size: 200px 200px; font: 'anonymous-pro'" href="./857%E4%B8%80%E4%B8%8B%EF%BC%8C%E4%BD%A0%E4%B8%8D%E7%9F%A5%E9%81%93.html" class="buttonbaidu" ><br><p>Enter Simple Baidu</p></a>
