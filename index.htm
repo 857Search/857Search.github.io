@@ -34,13 +34,15 @@
 					
 					var con;
 					con=confirm("已为您跳转至https加密你的信息");
-					if(con==false)
-					{
+					if (con==false){
+						
+						var url = window.location.href;
+						
 						url = url.replace("https:", "http:");
 
                     	window.location.replace(url);
 						
-						window.location.reload();
+						//window.location.reload();
 					}
 
 
