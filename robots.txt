@@ -2,6 +2,8 @@ User-agent: Baiduspider
 Allow: /index.htm
 Disallow: /857一下，你不知道.html
 Disallow: /857一下，你不知道_files/*
+Allow: baidu.svg
+Allow: /857一下，你不知道_files/*/.svg$
 
 
 
