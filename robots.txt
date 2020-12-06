@@ -1,4 +1,5 @@
 User-agent: Baiduspider
+Allow: /index.html
 Disallow: /857一下，你不知道.html
 Disallow: /857一下，你不知道_files
 
