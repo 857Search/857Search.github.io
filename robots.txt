@@ -1,3 +1,8 @@
-User-agent:*
-Disallow:/857一下，你不知道.html
-Disallow:/857一下，你不知道_files
+User-agent: Baiduspider
+Disallow: /857一下，你不知道.html
+Disallow: /857一下，你不知道_files
+
+
+
+User-agent: *
+Allow: /
